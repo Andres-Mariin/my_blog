@@ -1,0 +1,51 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    background-color: white;
+    padding: 1px;
+}
+
+body{
+    margin: auto;
+    margin-top: 5%;
+    max-width: 900px;
+    padding: 5%;
+    border: solid 1px black;
+    background-color: lightgray;
+}
+
+main{
+    max-width: 100%;
+    margin: auto;
+    border: solid 1px black;
+    padding: 5%;
+    background-color: lightblue;
+}
+
+h1{
+    
+    max-width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 3%;
+    border: solid 1px black ;
+    margin-bottom: 5%;
+    background-color: lightsalmon;
+}
+
+section{
+    max-width: 100%;
+    border: solid 1px black;
+    flex-direction: column;
+}
+
+a{
+    display: block;
+    background-color: aliceblue;
+}
+

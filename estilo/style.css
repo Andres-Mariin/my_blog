@@ -1,0 +1,230 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    
+    background-color: white;
+}
+
+
+body{
+    max-width: 900px;
+    margin: auto;
+    padding: 3px;
+}
+
+main{
+    max-width: 100%;
+    padding: 2%;
+    margin: auto;
+    background-color: grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+h1{
+    /*border: solid 1px; */
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 3%;
+    padding: 30px;
+    text-align: center;
+    color:rgb(178, 7, 118);
+}
+
+h2{
+    font-size: 1.5rem;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 2%;
+    color:black;
+    /*border: solid 1px;*/
+}
+
+.subtitulo2{
+    margin-top: 3%;
+}
+
+h3{
+
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 3%;
+    color:black;
+    /*border: solid 1px; */
+}
+
+
+.texto{
+    color: black;
+    margin-bottom:30px ;
+    /*border: solid 1px;*/
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+    padding: 3%;
+    background-color:lightgrey;
+    /*border: solid 1px black; */
+}   
+
+.horizontal1{
+    width: 100%;
+    margin: auto;
+    padding: 2%;
+    background-color:lightgrey;
+    /*border: solid 1px;*/
+}
+
+.foto1{
+    display: block;
+    margin: 5px 5px;
+    margin-right: 6%;
+    width: 50%;
+    padding: 5px;
+    /*border: solid 1px; */
+}
+
+.imagen1 {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.foto2{
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 2%;
+    /*border: solid 1px; */
+}
+
+.imagen2{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.video1{
+    display: block;
+    margin: 5px 5px;
+    margin-right: 6%;
+    width: 50%;
+    padding: 5px;
+    /*border: solid 1px; */
+}
+
+video {
+    display: block;
+    width: 100%; 
+    height: auto;
+}
+
+
+.parrafo1{
+    font-size: 1.5rem;
+    display: block;
+    width: 100%;
+    padding: 5%;
+    background-color: white;
+    border-radius: 10px;
+   /*border: solid 1px black;*/
+}
+
+.parrafo2{
+    font-size: 1.5rem;
+    display: block;
+    width: 100%;
+    padding: 3%;
+    background-color: white;
+    border-radius: 10px;
+   /*border: solid 1px black;*/
+}
+
+.parrafo3{
+    font-size: 1.5rem;
+    display: block;
+    width: 100%;
+    padding: 3%;
+    background-color: white;
+    border-radius: 10px;
+    /*border: solid 1px black;*/
+}
+
+
+.parrafo4{
+    width: 100%;
+    font-size: 1.5rem;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    padding: 3%;
+    background-color: white;
+    border-radius: 10px;
+    /*border: solid 1px black;*/
+}
+
+
+.descripcion{
+    color: rgb(5, 5, 106);
+    /*border: solid 1px;*/
+} 
+
+.parrafo1, .parrafo2, .parrafo3, .parrafo4{
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: lightgray;
+}
+
+
+@media (max-width:768px) {
+    .parrafo1, .parrafo2, .parrafo3, .parrafo4{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+
+    main{
+        
+        max-width: 100%;
+        padding: 0;
+        background-color: white;
+        
+    }
+    body{
+       
+        max-width: 100%;
+        padding: 0;
+        }
+}
+
+@media (max-width: 768px) {
+    
+    section, .horizontal1{
+        background-color: white;
+    }
+}
+
+
