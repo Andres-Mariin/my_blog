@@ -6,7 +6,7 @@
 }
 
 html{
-    background-color: rgb(245, 245, 237);
+    background-color: silver;
     padding: 3px;
 }
 
@@ -29,13 +29,14 @@ main{
 }
 
 h1{
-    max-width: 40%;
+    max-width: 70%;
     text-align: center;
     margin: auto;
     padding: 3%;
-    /*border: solid 1px black;*/
+    font-family:'Goudy Bookletter 1911';
     margin-bottom: 1%;
     /*background-color: lightsalmon;*/
+    /*border: solid 1px black;*/
 }
 
 figure{
@@ -68,7 +69,27 @@ section{
     border-radius: 10px;
     border: solid 3px lightgray;
     background-color: aliceblue;
+    margin-bottom:10%;
     
 }
 
+@media (max-width: 768px ) {
+
+    h1{
+        font-size: 1.5em;
+    }
+    .foto1{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 0;
+    }
+}
+
+footer{
+    /*border: solid 1px black;*/
+    max-width:30%;
+    margin: auto;
+    text-align: center;
+}
 
