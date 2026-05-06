@@ -18,6 +18,20 @@ body{
 
 }
 
+h1, h2, h3{ 
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 10px;
+    font-family:'Goudy Bookletter 1911', serif;
+   
+}
+
+h2{
+    margin-top: 10px;
+}
+
 main{
     margin: auto;
     margin-bottom: 5%;
@@ -71,7 +85,7 @@ video{
 }
 
 .descripcion{
-    
+    font-size: 1.2em;
     color: #002147;
     
 } 
@@ -86,10 +100,6 @@ video{
     flex-direction: column;*/
 }
 
-p{
-    margin-bottom: 10px;
-}
-
 .soloParrafo{
     background-color: aliceblue;
     font-size: 1.2em;
@@ -100,19 +110,8 @@ p{
     flex-direction: column;
 }
 
-h1, h2, h3{ 
-    max-width: 100%;
-    margin: auto;
-    text-align: center;
-    padding: 2%;
+p{
     margin-bottom: 10px;
-    font-family:'Goudy Bookletter 1911', serif;
-   
-}
-
-
-h2{
-    margin-top: 10px;
 }
 
 .galeria{
@@ -121,10 +120,8 @@ h2{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 5px;
-    padding: 5px;
+    padding: 0;
     background-color: #B2BEB5;
-    border-radius: 10px;
-    border: solid 1px black;
     margin-bottom: 5%;
     
 }
@@ -165,6 +162,10 @@ h2{
     .parrafos, .parrafos-horizontales, .soloParrafo{
         font-size: 1.1em;
     }
+}
+
+a{
+    font-size: 1.2em;
 }
 
 footer{
