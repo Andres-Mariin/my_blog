@@ -28,6 +28,10 @@ h1, h2, h3{
    
 }
 
+.subtitulo2, .texto{
+    color: aliceblue;
+}
+
 h2{
     margin-top: 10px;
 }
